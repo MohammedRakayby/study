@@ -5,6 +5,8 @@
  */
 package rakayby.softleaks;
 
+import com.sun.javafx.font.FontConstants;
+
 /**
  *
  * @author Mohammed Rakayby
@@ -17,6 +19,7 @@ public class CustomerHarness {
         for(int user=0;user<10;user++){
             Thread t=new Thread(task);
             t.start();
+            cm.displayCustomers();
         }
         
         while(true){
@@ -27,6 +30,10 @@ public class CustomerHarness {
             }
             cm.howManyCustomers();
             System.out.println("Available memory: "+Runtime.getRuntime().freeMemory()/1024+"k");
+            
         }
-    }
+        
+        
+    }   
+    
 }
