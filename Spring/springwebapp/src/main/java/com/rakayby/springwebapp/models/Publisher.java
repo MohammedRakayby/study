@@ -24,6 +24,10 @@ public class Publisher {
 	
 	
 	
+	public Publisher() {
+		super();
+	}
+
 	public Publisher(Long id, String name, String address) {
 		super();
 		this.id = id;
