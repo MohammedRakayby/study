@@ -2,7 +2,7 @@ package rakayby.spring.petclinic.models;
 
 import java.time.LocalDate;
 
-public class Pet {
+public class Pet extends BaseEntity{
 	
 	private PetType pettype;
 	private Owner owner;
