@@ -4,11 +4,11 @@
   <parent>
     <groupId>rakayby.spring</groupId>
     <artifactId>PetClinic</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.1</version>
   </parent>
   <artifactId>pet-clinic-data</artifactId>
   <name>pet-clinic-data</name>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.1</version>
  
  <properties>
  	<spring-boot.repackage.skip>true</spring-boot.repackage.skip>

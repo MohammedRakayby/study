@@ -10,7 +10,7 @@
 	<groupId>rakayby.spring</groupId>
 	<artifactId>PetClinic</artifactId>
 	<packaging>pom</packaging>
-	<version>1.1-SNAPSHOT</version>
+	<version>1.1</version>
 	<name>PetClinic</name>
 	<description>Re-creating spring pet clinic </description>
 	
@@ -42,7 +42,7 @@
 
 	<scm>
 		<developerConnection>scm:git:https://github.com/MohammedRakayby/study.git</developerConnection>
-	  <tag>HEAD</tag>
+	  <tag>PetClinic-1.1</tag>
   </scm>
 </project>
 	
