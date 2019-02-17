@@ -38,4 +38,8 @@
 			<scope>test</scope>
 		</dependency>
   </dependencies>
+
+  <scm>
+    <tag>PetClinic-1.0</tag>
+  </scm>
 </project>
